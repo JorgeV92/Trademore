@@ -15,6 +15,15 @@ Welcome to Trademore, a project dedicated to the study and implementation of var
 
 ## Getting Started
 
+# Research Topics 
+
+**Conceptual Clarity and Structure** : Type theory can help provide a clear and structured framework for classifying stocks. By defining types for different categories of stocks, you can enforce certain rules and properties that these stocks must satisfy, which could help in managing and understanding stock characteristics more systematically.
+
+**Potential for Novel Insights** : The application of such advanced mathematical frameworks might lead to new insights into financial markets. For example, the concept of "paths" and "equivalences" in HoTT could be used to explore how different stocks evolve similarly over time or under certain conditions, potentially identifying new patterns or correlations.
+
+
+
+
 ### Prerequisites
 
 - **OCaml:** Ensure you have OCaml installed on your system. You can install it from [OCaml's official website](https://ocaml.org).

@@ -92,12 +92,4 @@ module Alpaca = struct
                         ("qty", `Int qty);
                         ("side", `String side);
                         ("type", `String type_);
-                        ("time_in_force", `String time_in_force)]
-                |> Yojson.Basic.to_string in
-      Client.call ~headers:(init_headers ()) ~body:(`String body) `POST uri
-      >>= fun (res, body) ->
-      let code = res |> Response.status |> Code.code_of_status in
-      body |> Cohttp_lwt.Body.to_string >|= fun body ->
-      (code, body)
-      
-end
+                        ("time_in_force", `
