@@ -15,6 +15,13 @@ Welcome to Trademore, a project dedicated to the study and implementation of var
 
 ## Getting Started
 
+# Research Topics 
+
+**Enhanced Conceptual Framework** : Utilizing type theory could revolutionize how stocks are classified, providing a structured framework that dictates specific properties and rules for different stock categories. This approach promises a systematic method for managing and interpreting stock characteristics.
+
+**Discovery of Novel Patterns** : Integrating advanced mathematical constructs such as those found in homotopy type theory (HoTT) may unveil novel financial insights. Concepts like "paths" and "equivalences" from HoTT could be applied to examine similarities in stock evolution over time or under specific conditions, offering a fresh perspective on pattern recognition and correlation in the markets.
+
+
 ### Prerequisites
 
 - **OCaml:** Ensure you have OCaml installed on your system. You can install it from [OCaml's official website](https://ocaml.org).
@@ -25,5 +32,5 @@ Welcome to Trademore, a project dedicated to the study and implementation of var
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourgithubusername/trademore.git
-
+   ```
 
