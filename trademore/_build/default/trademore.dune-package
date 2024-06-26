@@ -1,0 +1,54 @@
+(lang dune 3.16)
+(name trademore)
+(sections (lib .) (libexec .) (bin ../../bin))
+(files
+ (lib
+  (META
+   alpaca.ml
+   dune-package
+   opam
+   trademore.a
+   trademore.cma
+   trademore.cmi
+   trademore.cmt
+   trademore.cmx
+   trademore.cmxa
+   trademore.ml
+   trademore__Alpaca.cmi
+   trademore__Alpaca.cmt
+   trademore__Alpaca.cmx))
+ (libexec (trademore.cmxs))
+ (bin (example_exec trademore)))
+(library
+ (name trademore)
+ (kind normal)
+ (archives (byte trademore.cma) (native trademore.cmxa))
+ (plugins (byte trademore.cma) (native trademore.cmxs))
+ (native_archives trademore.a)
+ (requires
+  cohttp-lwt-unix
+  lwt
+  lwt_ppx
+  ssl
+  tls
+  conduit-lwt-unix
+  yojson
+  ptime
+  ptime.clock.os)
+ (main_module_name Trademore)
+ (modes byte native)
+ (modules
+  (wrapped
+   (group
+    (alias
+     (obj_name trademore)
+     (visibility public)
+     (kind alias)
+     (source (path Trademore) (impl (path trademore.ml-gen))))
+    (name Trademore)
+    (modules
+     (module
+      (obj_name trademore__Alpaca)
+      (visibility public)
+      (source (path Alpaca) (impl (path alpaca.ml))))))
+   (wrapped true))))

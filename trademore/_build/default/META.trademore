@@ -1,0 +1,15 @@
+description = ""
+requires =
+"cohttp-lwt-unix
+ conduit-lwt-unix
+ lwt
+ lwt_ppx
+ ptime
+ ptime.clock.os
+ ssl
+ tls
+ yojson"
+archive(byte) = "trademore.cma"
+archive(native) = "trademore.cmxa"
+plugin(byte) = "trademore.cma"
+plugin(native) = "trademore.cmxs"

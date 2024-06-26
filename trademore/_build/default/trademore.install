@@ -1,0 +1,23 @@
+lib: [
+  "_build/install/default/lib/trademore/META"
+  "_build/install/default/lib/trademore/alpaca.ml"
+  "_build/install/default/lib/trademore/dune-package"
+  "_build/install/default/lib/trademore/opam"
+  "_build/install/default/lib/trademore/trademore.a"
+  "_build/install/default/lib/trademore/trademore.cma"
+  "_build/install/default/lib/trademore/trademore.cmi"
+  "_build/install/default/lib/trademore/trademore.cmt"
+  "_build/install/default/lib/trademore/trademore.cmx"
+  "_build/install/default/lib/trademore/trademore.cmxa"
+  "_build/install/default/lib/trademore/trademore.ml"
+  "_build/install/default/lib/trademore/trademore__Alpaca.cmi"
+  "_build/install/default/lib/trademore/trademore__Alpaca.cmt"
+  "_build/install/default/lib/trademore/trademore__Alpaca.cmx"
+]
+libexec: [
+  "_build/install/default/lib/trademore/trademore.cmxs"
+]
+bin: [
+  "_build/install/default/bin/example_exec"
+  "_build/install/default/bin/trademore"
+]
