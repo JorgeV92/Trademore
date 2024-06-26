@@ -1,0 +1,9 @@
+(executable
+ (public_name trademore)
+ (name main)
+ (libraries trademore))
+
+(executable
+ (public_name example_exec)
+ (name example)
+ (libraries cohttp-lwt-unix lwt_ssl))

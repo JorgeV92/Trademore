@@ -1,0 +1,7 @@
+(test
+ (name test_trademore))
+
+(test
+ (name test_alpaca)
+ (modules test_alpaca)
+ (libraries trademore))
