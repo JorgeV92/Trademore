@@ -17,11 +17,9 @@ Welcome to Trademore, a project dedicated to the study and implementation of var
 
 # Research Topics 
 
-**Conceptual Clarity and Structure** : Type theory can help provide a clear and structured framework for classifying stocks. By defining types for different categories of stocks, you can enforce certain rules and properties that these stocks must satisfy, which could help in managing and understanding stock characteristics more systematically.
+**Enhanced Conceptual Framework** : Utilizing type theory could revolutionize how stocks are classified, providing a structured framework that dictates specific properties and rules for different stock categories. This approach promises a systematic method for managing and interpreting stock characteristics.
 
-**Potential for Novel Insights** : The application of such advanced mathematical frameworks might lead to new insights into financial markets. For example, the concept of "paths" and "equivalences" in HoTT could be used to explore how different stocks evolve similarly over time or under certain conditions, potentially identifying new patterns or correlations.
-
-
+**Discovery of Novel Patterns** : Integrating advanced mathematical constructs such as those found in homotopy type theory (HoTT) may unveil novel financial insights. Concepts like "paths" and "equivalences" from HoTT could be applied to examine similarities in stock evolution over time or under specific conditions, offering a fresh perspective on pattern recognition and correlation in the markets.
 
 
 ### Prerequisites
@@ -34,5 +32,5 @@ Welcome to Trademore, a project dedicated to the study and implementation of var
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourgithubusername/trademore.git
-
+   ```
 
