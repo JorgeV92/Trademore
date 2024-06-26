@@ -8,8 +8,8 @@ module Alpaca = struct
     (* Alpaca API Configuration *)
     let alpaca_endpoint = "https://paper-api.alpaca.markets"
     let alpaca_market_endpoint = "https://data.alpaca.markets"
-    let alpaca_key = "PKQ6ZYP9Q3HLDCVJB1TV"
-    let alpaca_secret = "wjobG7qsUWMRfXlg6uGpWjmKWdqUf2MdTavc4OWA"
+    let alpaca_key = "<Alpaca key>"
+    let alpaca_secret = "<Alpca Sectret>"
 
     (* Initialize Headers *)
     let init_headers () =
