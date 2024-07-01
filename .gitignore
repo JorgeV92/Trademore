@@ -1,0 +1,32 @@
+# Ignore build directory
+/cpp/build/
+
+# Ignore fetched content (if using FetchContent, specify the directory where it gets stored, if applicable)
+/cpp/_deps/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore CMake generated files
+cpp/CMakeFiles/
+cpp/CMakeCache.txt
+cpp/cmake_install.cmake
+cpp/*.cmake
+
+# Ignore compiled object files and executables
+cpp/*.o
+cpp/*.a
+cpp/*.so
+cpp/*.exe
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore VSCode specific files
+.vscode/
+
+# Ignore system files
+Thumbs.db
+
+.env
