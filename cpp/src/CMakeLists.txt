@@ -36,6 +36,8 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(json)
 
-add_executable(alpaca alpaca.cpp)
+add_executable(alpaca AlpacaExample.cpp Alpaca.cpp)
+add_executable(quandl QuandlExample.cpp Quandl.cpp)
 
 target_link_libraries(alpaca PRIVATE cpr::cpr CLI11::CLI11 nlohmann_json::nlohmann_json)
+target_link_libraries(quandl PRIVATE cpr::cpr CLI11::CLI11 nlohmann_json::nlohmann_json)

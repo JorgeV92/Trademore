@@ -28,3 +28,5 @@ cpp/*.exe
 
 # Ignore system files
 Thumbs.db
+
+.env
