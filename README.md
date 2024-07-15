@@ -1,7 +1,7 @@
 
 # Trademore
 
-Welcome to Trademore, a project dedicated to the study and implementation of various trading methods and mathematical finance models using OCaml. This project aims to explore the intersection of finance and functional programming, starting with the implementation of the Simple Moving Average and the Black-Scholes model.
+Welcome to Trademore, a project dedicated to the study and implementation of various trading methods and mathematical finance models using OCaml, C++, and Python. This project aims to explore the intersection of finance and functional programming, Speed with C++, and Machine learning with python , starting with the implementation of the Simple Moving Average and the Black-Scholes model. 
 
 ## Introduction
 
